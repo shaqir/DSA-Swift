@@ -28,7 +28,9 @@ let newCampus = Contact(name: "New Campus", email: "new@example.com")
 print(isEqual(left: oldCampus, right: newCampus))
 
 
-struct Pair<T1: Comparable, T2: Comparable>{
+struct Pair2<T1: Comparable, T2: Comparable>{
     var first: T1
     var second: T2
 }
+
+ 
