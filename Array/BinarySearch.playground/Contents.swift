@@ -22,7 +22,7 @@ func binarySearch(_ array: [Int], target: Int) -> Int?{
         else if(sorted[mid] < target){
             low = mid + 1
         }
-        else if (sorted[mid] > target){
+        else{
             high = mid - 1
         }
     }
